@@ -16,6 +16,7 @@ Notable differences in here:
 package zmq4
 
 /*
+#cgo windows CFLAGS: -I/usr/local/include
 #include <zmq.h>
 #include <stdlib.h>
 
